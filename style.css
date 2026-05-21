@@ -44,13 +44,19 @@ button{
 
 }
 
-.btn-tggl {
-    background: none;
+.btns {
     margin: 0;
     padding: 0;
-    font-size: 40px;
+}
+
+.btn-tggl {
+    
+    width: 50px;
+    height: 50px;
+    background: url("/new_moon_with_face.png") no-repeat;
+    background-size: 50px 50px;
     position: relative;
-    top: 6px;
+    top: 8px;
 }
 
 
@@ -306,9 +312,14 @@ input[type=text]{
 .dark{
     background-color: black;
 
-    /* #btn-tggl{
-        background: url("&#127774");
-    } */
+    .btn-tggl{
+        width: 50px;
+        height: 50px;
+        background: url("/sun_with_face.png") no-repeat;
+        background-size: 50px 50px;
+        position: relative;
+        top: 8px;
+    }
 
     h2{
         color: white;
